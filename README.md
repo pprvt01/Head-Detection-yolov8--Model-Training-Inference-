@@ -1,11 +1,11 @@
 
-# 🧠 Head Detection using YOLOv8 🚶‍♂️🚶‍♀️
+# Head Detection using YOLOv8 
 
 This project implements a custom-trained YOLOv8 model for **head detection** in video frames. The model can count people in a video by detecting heads, even in crowded scenes.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -22,7 +22,7 @@ This project implements a custom-trained YOLOv8 model for **head detection** in 
 
 ---
 
-## 🧪 Dataset
+## Dataset
 
 - The dataset was created using [Roboflow](https://roboflow.com/).
 - Includes images with head annotations for object detection.
@@ -35,7 +35,7 @@ This project implements a custom-trained YOLOv8 model for **head detection** in 
 
 ---
 
-## 🚀 How to Run Inference
+## How to Run Inference
 
 ### 1. Python Script (`inference.py`)
 ```bash
@@ -48,7 +48,7 @@ python inference.py --model yolov8s.pt --source input_video.mp4
 
 ---
 
-## 🧠 Model
+## Model
 
 - **Model**: YOLOv8-small (`yolov8s`)
 - **Framework**: [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
@@ -56,7 +56,7 @@ python inference.py --model yolov8s.pt --source input_video.mp4
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Install dependencies:
 ```bash
@@ -65,19 +65,19 @@ pip install ultralytics opencv-python
 
 ---
 
-## 📊 Example Results
+## Example Results
 
 - Supports counting people in surveillance or crowd footage
 - Works in real-time video processing
 
 ---
 
-## 📃 License
+## License
 
 This project is open-source and free to use under the [MIT License](LICENSE).
 
 ---
 
-## ✍️ Author
+## Author
 
 Made with ❤️ by Rahul Agarwal
