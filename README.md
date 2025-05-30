@@ -76,6 +76,16 @@ pip install ultralytics opencv-python
 
 This project is open-source and free to use under the [MIT License](LICENSE).
 
+
+## Updates
+
+### May 2025
+
+- Added `cctv_images/` folder containing real-world CCTV frames for head detection.
+- Added `cctv_labels/` with annotated labels corresponding to the CCTV images (YOLO format).
+- Uploaded new trained YOLOv8 model `new_best.pt` with improved performance on real CCTV data.
+
+
 ---
 
 ## Author
